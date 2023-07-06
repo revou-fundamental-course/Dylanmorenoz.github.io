@@ -264,19 +264,20 @@ footer {
 }
 
 
-@media screen and (max-width: 480px ) {
+@media screen and (max-width: 390px ) {
 
     body {
-        max-width: 480px;
+        max-width: 390px;
     }
 
     .navigasi {
-        justify-content: left;
+        justify-content: space-between;
         gap: 1rem;
+        border-right: none;
     }
     
     #judul {
-        margin-left: 5rem;
+        margin-left: 2rem;
         width: 70px;
         height: 70px;
         object-fit: contain;
@@ -291,6 +292,7 @@ footer {
 
     .isi-navigasi {
         margin: 5px;
+        margin-right: 1rem;
     }
 
     .judul-utama p {
@@ -308,16 +310,13 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 5px;
+        margin-top: 10px;
     }
 
     .gmbrtngh {
         width: 300px;
         height: 150px;
-        margin: 3rem 5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin: 3rem;
     }
     
     .banner-contact {
@@ -357,7 +356,7 @@ footer {
     }
     
     .grid-line {
-        width: 30%;
+        width: 60%;
         height: 5px;
         background-color: #999;
         margin: 25px 5rem;
@@ -366,13 +365,12 @@ footer {
     
     .contact-us {
         background-color: aqua;
-        width: 100%;
+        width: 280px;
         height: 700px;
         margin: 50px 25px 25px 0px;
         padding: 1rem 55px;
         border-radius: 4px;
         justify-content: center;
-        align-items: center;
     }
     
     #header-contact {
@@ -381,7 +379,7 @@ footer {
         color: darkslategray;
         display: flex;
         justify-content: left;
-        margin: 3rem 3rem 1rem 3rem;
+        margin: 3rem 3rem 1rem 1rem;
     }
     
     #desc-contact {
@@ -390,11 +388,11 @@ footer {
         color: darkolivegreen;
         display: flex;
         justify-content: left;
-        margin-left: 3rem;
+        margin-left: 1rem;
     }
     
     .form {
-        margin: 5rem 3rem 3rem 3rem;
+        margin: 5rem 3rem 3rem 1rem;
         justify-content: left;
         font-size: 15px;
         font-family: Arial, sans-serif;
@@ -460,8 +458,8 @@ footer {
     .offer {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         color: darkslategray;
-        margin: 1rem 25px 25px 50px;
-        font-size: 12px;
+        margin: 5rem 25px 25px 50px;
+        font-size: 15px;
     }
     
     .feature {
