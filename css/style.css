@@ -1,0 +1,517 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.navigasi {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-top: none;
+}
+
+#judul {
+    margin-left: 3rem;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+.isi-navigasi {
+    display: flex;
+    margin: 1rem;
+    margin-right: 3rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.list-navigasi ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: arial;
+    color: black;
+    font-size: 15px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-package {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.judul-utama p {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.baris-1 {
+    margin-top: 3rem;
+}
+
+.keterangan-judul {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: darksalmon;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.gmbrtngh {
+    width: 700px;
+    height: 450px;
+    margin: 50px 25px 25px 50px;
+    border-radius: 4px;
+}
+
+.banner-contact {
+    display: flex;
+}
+
+.banner-autoslide p {
+    margin: 50px 170px;
+    color:#999;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+}
+
+.review {
+    display: flex;
+}
+
+.fotoprofil {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin-left: 170px;
+}
+
+#nama-review {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+    margin: 25px 20px 10px 20px;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#status-review {
+    margin: 1px 20px;
+}
+
+.grid-line {
+    width: 30%;
+    height: 5px;
+    background-color: #999;
+    margin: 40px 270px;
+    border-radius: 30px;
+}
+
+.contact-us {
+    background-color: aqua;
+    width: 450px;
+    height: 750px;
+    margin: 50px 25px 25px 0px;
+    padding: 0px 55px;
+    border-radius: 4px;
+}
+
+#header-contact {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+    display: flex;
+    justify-content: left;
+    margin: 3rem 3rem 1rem 3rem;
+}
+
+#desc-contact {
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    color: darkolivegreen;
+    display: flex;
+    justify-content: left;
+    margin-left: 3rem;
+}
+
+.form {
+    margin: 5rem 3rem 3rem 3rem;
+    justify-content: left;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: darkslategray;
+
+}
+
+.mform {
+    margin-bottom: 2rem;
+}
+
+.mform2 {
+    margin-bottom: 2rem;
+}
+
+.mform3 {
+    margin-bottom: 2rem;
+}
+
+select {
+    color: #999;
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: #999;
+}
+
+input {
+    width: 250px;
+    height: 50px;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color:indianred;
+    color: white;
+    font-weight: bold;
+}
+  
+.offer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+    margin: 25px 25px 25px 50px;
+    font-size: 20px;
+}
+
+.feature {
+    margin: 50px 25px 25px 50px;
+    display: flex;
+}
+
+.feature-1 {
+    display: flex;
+}
+
+.numbering {
+    border-radius: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: darkslategray;
+    margin: 25px 20px 1rem 0;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-feature {
+    font-family: Arial, sans-serif;
+    color: darkcyan;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.feature-bagian2 {
+    margin-left: 250px;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    margin-top: 100px;
+    display:flex;
+}
+
+#footer {
+    justify-content: right;
+    align-items: center;
+    margin: 100px 50px 100px 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkslategray;
+    font-size: 30px;
+
+}
+
+
+@media screen and (max-width: 480px ) {
+
+    body {
+        max-width: 480px;
+    }
+
+    .navigasi {
+        justify-content: left;
+        gap: 1rem;
+    }
+    
+    #judul {
+        margin-left: 5rem;
+        width: 70px;
+        height: 70px;
+        object-fit: contain;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .list-navigasi ul, li, a {
+        padding: 2px 5px;
+        font-size: 10px;
+    }
+
+    .isi-navigasi {
+        margin: 5px;
+    }
+
+    .judul-utama p {
+        font-size: 25px;
+    }
+
+    .baris-1 {
+        margin-top: 3rem;
+    }
+    
+    .keterangan-judul {
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        color: darksalmon;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .gmbrtngh {
+        width: 300px;
+        height: 150px;
+        margin: 3rem 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner-contact {
+        display: block;
+    }
+
+    .banner-autoslide p {
+        margin: 3rem 5rem;
+        color:#999;
+        font-style: italic;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+    }
+    
+    .review {
+        display: flex;
+    }
+    
+    .fotoprofil {
+        border-radius: 50%;
+        border: 1px solid black;
+        width: 45px;
+        height: 45px;
+        margin-left: 5rem;
+    }
+    
+    #nama-review {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkslategray;
+        margin: 5px 20px 5px 20px;
+        font-style: normal;
+        font-size: 10px;
+    }
+    
+    #status-review {
+        margin: 1px 20px;
+    }
+    
+    .grid-line {
+        width: 30%;
+        height: 5px;
+        background-color: #999;
+        margin: 25px 5rem;
+        border-radius: 30px;
+    }
+    
+    .contact-us {
+        background-color: aqua;
+        width: 100%;
+        height: 700px;
+        margin: 50px 25px 25px 0px;
+        padding: 1rem 55px;
+        border-radius: 4px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #header-contact {
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkslategray;
+        display: flex;
+        justify-content: left;
+        margin: 3rem 3rem 1rem 3rem;
+    }
+    
+    #desc-contact {
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        color: darkolivegreen;
+        display: flex;
+        justify-content: left;
+        margin-left: 3rem;
+    }
+    
+    .form {
+        margin: 5rem 3rem 3rem 3rem;
+        justify-content: left;
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        color: darkslategray;
+    
+    }
+    
+    .mform {
+        margin-bottom: 2rem;
+    }
+    
+    .mform2 {
+        margin-bottom: 2rem;
+    }
+    
+    .mform3 {
+        margin-bottom: 2rem;
+    }
+    
+    select {
+        color: #999;
+        width: 250px;
+        height: 50px;
+        border-radius: 4px;
+        border: 2px solid black;
+        padding: 12px 20px;
+        margin: 8px 0px;
+        box-sizing: border-box;
+    }
+    
+    ::placeholder {
+        color: #999;
+    }
+    
+    input {
+        width: 250px;
+        height: 50px;
+        border-radius: 4px;
+        border: 2px solid black;
+    }
+    
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    input[type=email] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+        background-color:indianred;
+        color: white;
+        font-weight: bold;
+    }
+      
+    .offer {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkslategray;
+        margin: 1rem 25px 25px 50px;
+        font-size: 12px;
+    }
+    
+    .feature {
+        margin: 50px 25px 25px 50px;
+        display: block;
+    }
+    
+    .feature-1 {
+        display: flex;
+    }
+    
+    .numbering {
+        border-radius: 50%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        background-color: darkslategray;
+        margin: 25px 20px 1rem 0;
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .info-feature {
+        font-family: Arial, sans-serif;
+        color: darkcyan;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    
+    .feature-bagian2 {
+        margin-left: 0px;
+    }
+    
+    footer {
+        border-top: 1px solid lightgray;
+        margin-top: 30px;
+        display:flex;
+    }
+    
+    #footer {
+        justify-content: right;
+        align-items: center;
+        margin: 50px 1000px 50px 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: darkslategray;
+        font-size: 15px;
+    
+    }
+    
+}

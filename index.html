@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navigasi">
+                <img id="judul" src="img/kodelevel.jpg" type="logo" alt="">
+                <ul class="isi-navigasi">
+                    <li class="list-navigasi">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="list-navigasi" id="our-package">
+                        <a href=#offer>Our Package</a>
+                    </li>
+                    <li class="list-navigasi">
+                        <a href=#contact>Call Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="judul-utama">
+            <p class="baris-1">Top Rated E-Groceries Shop in</p>
+            <p class="baris-2">Indonesia</p>
+        </div>
+
+        <div class="keterangan-judul">
+            <p>Everyday with the best ingredients.</p>
+        </div>
+        
+        <div class="banner-contact">
+            <div class="banner-autoslide">
+                <img class="gmbrtngh" src="img/banner1.jpg">
+                <img class="gmbrtngh" src="img/banner2.jpg">
+                <img class="gmbrtngh" src="img/banner3.jpg">
+                <p>"This shop is amazing, it has all the items that I need<br>
+                with premium quality"</p>
+                <div class="review">
+                    <img src="img/foto-profil.png" class="fotoprofil">
+                    <div class="orang-review">
+                        <p span id="nama-review">Dylan Moreno</p>
+                        <p span id="status-review">Student, 16</p>
+                    </div>
+                </div>
+                <div class="grid-line"></div>
+            </div>
+            <script src="js/script.js"></script>
+
+            <div class="contact-us" id="contact">
+                <p span id="header-contact">Contact Us</p>
+                <p span id="desc-contact">Sales akan menghubungi anda 1x24<br>
+                jam setelah data kami terima.</p>
+
+                <form name="formulir" method="post" class="form" onsubmit="return validateForm()">
+                    <table>
+                        <tr>
+                            <td>Your Name :</td>
+                        </tr>
+                        <tr>
+                            <td><input class="mform" placeholder="First and last name" type="text" name="name"></td>
+                        </tr>
+                        <tr>
+                            <td>Email Address :</td>
+                        </tr>
+                        <tr>
+                            <td><input class="mform2" placeholder="example@gmail.com" type="email" name="email"></td>
+                        </tr>
+                        <tr>
+                            <td>What are you interested in?</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select class="mform3" name="pesan" required>
+                                    <option value="">Select option</option>
+                                    <option value="Fruit">Fruit</option>
+                                    <option value="Vegetable">Vegetable</option>
+                                    <option value="Meats">Carbohydrate</option>
+                                    <option value="Dairy products">Dairy products</option>
+                                    <option value="Bakery">Bakery</option>
+                                    <option value="Drinks">Drinks</option>
+                                    <option value="Household">Household</option>
+                                    <option value="Healthcare">Healthcare</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><input type="submit" value="SEND"></td>
+                        </tr>
+                    </table>
+                </form>
+                <script src="js/validasi.js"></script>
+            </div>
+        </div>
+
+        <div class="offer" id="offer">
+            <p>High quality of our products is the most important.<br>
+            We provide the best with an affordable price for the society.</p>
+        </div>
+
+        <div class="feature">
+
+            <div class="feature-bagian1">
+                <div class="feature-1">
+                    <p class="numbering">1</p>
+                    <p class="info-feature">High Quality</p>
+                </div>
+                <div class="feature-1">
+                    <p class="numbering">2</p>
+                    <p class="info-feature">Affordable Price</p>
+                </div>
+                <div class="feature-1">
+                    <p class="numbering">3</p>
+                    <p class="info-feature">Complete Items</p>
+                </div>
+            </div>
+
+            <div class="feature-bagian2">
+                <div class="feature-1">
+                    <p class="numbering">4</p>
+                    <p class="info-feature">Lots of Stock</p>
+                </div>
+                <div class="feature-1">
+                    <p class="numbering">5</p>
+                    <p class="info-feature">Promo and Discount</p>
+                </div>
+                <div class="feature-1">
+                    <p class="numbering">6</p>
+                    <p class="info-feature">Hygienic and Fresh</p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </main>
+    <footer>
+        <p span id="footer">Kodelevel</p>
+    </footer>    
+</body>
+</html>
