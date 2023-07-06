@@ -264,7 +264,7 @@ footer {
 }
 
 
-@media screen and (max-width: 480px ) {
+@media only screen and (max-width: 480px ) {
 
     body {
         max-width: 480px;
@@ -511,13 +511,12 @@ footer {
         font-size: 15px;
     
     }
-    
 }
 
-@media screen and (max-width: 300px ) {
+@media only screen and (max-width: 320px ) {
 
     body {
-        max-width: 300px;
+        max-width: 320px;
     }
 
     .navigasi {
@@ -569,9 +568,9 @@ footer {
     }
 
     .gmbrtngh {
-        width: 300px;
+        width: 310px;
         height: 150px;
-        margin: 3rem 6rem;
+        margin: 3rem 6em;
     }
     
     .banner-contact {
@@ -768,3 +767,7 @@ footer {
     }
     
 }
+
+
+
+
